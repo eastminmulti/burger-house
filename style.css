@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containernumber1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(file/bg_30.jpg);
+    background-position: center;
+    background-size: contain;
+    padding-left: 4%;
+    padding-right: 4%;
+    box-sizing: border-box;
+}
+
+ /* NAVIGATION BAR */
+.navbar{
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #42200b;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    color: #42200b;
+    font-family: 'Bebas Neue';
+}
+
+
+.row{
+    display: flex;
+    height: 70%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+
+    /* TEXT */
+h1{
+    color: #42200b;
+    font-size: 90px;
+    font-family: 'Alfa Slab One';
+    text-shadow: 2px 2px white;
+    letter-spacing: 5px;
+}
+
+h2{
+    font-size: 50px;
+    color: #42200b;
+    font-family: 'Alfa Slab One';
+    text-shadow: 2px 2px white;  
+    letter-spacing: 5px;
+}
+
+h3 {
+    color: #42200b;
+    font-family: 'Bebas Neue';
+    text-indent: 15px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+h4 {
+    border-style: dashed;
+    color: #42200b;
+    font-family: 'Bebas Neue';
+    margin-right: 350px;
+    text-align: center;
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #171616;
+    font-size: bold;
+}
+
+/*  >>> 2ND SECTION <<< */
+
+.containernumber2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+  }
+  
+  .left-box {
+    width: 600px; /* Adjust the width as needed */
+    height: 420px; /* Adjust the height as needed */
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    margin-right: 20px;
+    background-image: url(file/2/Burger-Image1.png);
+  }
+  
+  .right-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .box {
+    width: 600px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+  }
+
+  .box1 {
+    background-image: url(file/2/Burger-Image2.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .box2 {
+    background-image: url(file/2/Burger-Image3.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .left-box,
+  .box1,
+  .box2 {
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6); /* shadow effect */
+  }
+
+  #text1 {
+    color: #fff;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+  }
+
+  #text2 {
+    color: #fff;
+    font-family: 'Bebas Neue';
+    font-size: 5dvh;
+    letter-spacing: 2px;
+    margin: -9px 0 0; /* Reduce top margin to 10px */
+  }
+
+  #text1, #text2 {
+    padding-left: 15px;
+  }
